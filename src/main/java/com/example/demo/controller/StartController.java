@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class StartController {
     @RequestMapping("/springboot")
     public String startSpringBoot() {
-        return "Welcome to the world of Spring Boot! 哈哈哈哈" 冲突测试！;
+        return "Welcome to the world of Spring Boot! 哈哈哈哈 123456";
     }
 }
