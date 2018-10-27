@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class StartController {
     @RequestMapping("/springboot")
     public String startSpringBoot() {
+        System.out.println("Github修改！");
         return "Welcome to the world of Spring Boot! 哈哈哈哈冲突测试！";
     }
 }
